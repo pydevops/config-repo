@@ -1,0 +1,10 @@
+apiVersion: v1
+version: 0.0.1
+appVersion: 0.0.1
+name: infra
+engine: gotpl
+description: Infra Helm chart for Kubernetes
+home: https://github.com/pydevops
+maintainers:
+- email: pythonrocks@gmail.com
+  name: victoryang

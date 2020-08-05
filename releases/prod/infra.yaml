@@ -1,0 +1,19 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: infra
+  namespace: prod
+  annotations:
+    fluxcd.io/automated: "true"
+    #filter.fluxcd.io/chart-image: semver:~0.4
+spec:
+  releaseName: infra
+  chart:
+    git: git@github.com:pydevops/config-repo
+    path: charts/infra
+    ref: master
+  values:
+    namespace: prod
+    projectId: prod-svc-1
+    projectName: "Prod svc 1"

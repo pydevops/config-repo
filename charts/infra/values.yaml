@@ -1,0 +1,24 @@
+# Default values for podinfo.
+namespace: prod
+projectId: default-svc-1
+projectName: default service
+
+# serviceAccount:
+#   # Specifies whether a service account should be created
+#   enabled: false
+#   # The name of the service account to use.
+#   # If not set and create is true, a name is generated using the fullname template
+#   name:
+
+# resources:
+#   limits:
+#   requests:
+#     cpu: 1m
+#     memory: 16Mi
+
+# nodeSelector: {}
+
+# tolerations: []
+
+# affinity: {}
+
